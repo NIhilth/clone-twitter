@@ -1,0 +1,115 @@
+*{
+    
+    box-sizing: border-box;
+}
+
+body{
+    background-color: rgba(0, 0, 0, 0.4);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 789px;
+}
+
+
+.content-container{
+    background-color: rgba(255,255,255,1.00);
+    height: 650px;
+    width: 600px;
+    border-radius: 16px;
+    justify-content: center;
+}
+
+.topo-corpo{
+    width: 600px;
+    height: 53px;
+    padding: 0px 16px;
+    display: flex;
+}
+
+.close{
+    width: 268px;
+    height: 36px;
+    justify-content: start;
+    align-items: center;
+    margin-top: 17px;
+    margin-bottom: 8.5px;
+}
+
+#X{
+    width: 20px;
+    height: 20px;
+   
+}
+
+.icone{
+    width: 32px;
+    height: 53px;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+}
+
+#passaro{
+    margin-top: 12px;
+    height: 53px;
+    width: 32px;
+    fill: rgb(29, 155, 240)
+}
+
+
+.conteudo-corpo{
+    width: 600px;
+    height: 597px;
+    justify-content: center;
+}
+
+.cadastro{
+    width: 600px;
+    height: 505px;
+    
+}
+
+.espaco-usado{
+    margin: 0px 32px;
+}
+
+.titulo{
+    margin: 16px 0px;
+    
+    font-size: 23px;
+    font-weight: 700;
+    font-family:  "Segoe UI", Helvetica, Arial, sans-serif;
+}
+
+#paragrafo{
+    padding-top: 16px;
+    padding-left: 8px;
+    padding-right: 8px;
+    
+}
+
+.informacao{
+    height: 56px;
+    padding: 16px 0px;
+    border: solid 1px;
+    border-radius: 4px;
+    border-color: rgb(207, 217, 222);
+    font-size: 17px;
+    font-weight: 400;
+    color: rgb(83, 100, 113)
+}
+
+.senha{
+    width: 600px;
+    height: 92px;
+    padding-top: 12px;
+    padding-left: 32px;
+    padding-right: 32px;
+    padding-bottom: 36px;
+    text-align: center;
+    font-family:  Helvetica,"Segoe UI", Helvetica, Arial, sans-serif;
+    line-height: 20px;
+    font-weight: 600;
+    color: rgb(29, 155, 240);
+}
